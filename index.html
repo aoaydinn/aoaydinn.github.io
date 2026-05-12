@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdurrahman Aydın | Geliştirici & Siber Güvenlik</title>
+    
+    <!-- Google Fonts:现代 ve okunabilir iki yazı tipi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome ikonları -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Kendi stil dosyamız -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- 🌙 Tema Değiştirme Butonu -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Tema değiştir">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- 📍 Navigasyon -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">&lt;aoaydinn/&gt;</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#skills">Beceriler</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Menü">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 🏠 Hero Bölümü -->
+    <section id="home" class="hero">
+        <canvas id="matrixCanvas"></canvas>
+        <div class="hero-content">
+            <p class="hero-greeting">Merhaba, ben</p>
+            <h1 class="hero-title">Abdurrahman Aydın</h1>
+            <div class="hero-roles">
+                <span id="typingText"></span><span class="cursor">|</span>
+            </div>
+                                                               <p class="hero-description">
+                Kahramanmaraş'tan bir Geliştirici ve Siber Güvenlik Tutkunu. 
+                12 yılı aşkın süredir hem donanımsal hem de yazılımsal alanda 
+                çözümler üretiyorum.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Projelerimi Gör</a>
+                <a href="#contact" class="btn btn-outline">İletişime Geç</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Aşağı Kaydır</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 👤 Hakkımda Bölümü -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">&lt;hakkımda&gt;</h2>
+            <p class="section-subtitle">&lt;/hakkımda&gt;</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Merhaba! Ben <strong>Abdurrahman</strong>. 12 yılı aşkın süredir hem donanımsal hem de yazılımsal alanda kendimi geliştiriyorum. Siber güvenlik, yapay zeka ve modern web teknolojileriyle sağlam ve ölçeklenebilir sistemler inşa etmeye tutkuluyum.</p>
+                    
+                    <p>Yapay zekaya olan ilgim yalnızca görsel üretimiyle sınırlı değil; sesten yazıya, yazıdan sese, yerel yapay zeka modeli kurulumları ve takım çalışmaları üzerine yoğunlaşıyorum. İnsanların günlük işlerini kolaylaştıracak pratik çözümler üretmek en büyük motivasyonum.</p>
+                    
+                    <p>Aynı zamanda kamera sistemleri kurulumu ve son kullanıcı desteği konularında kapsamlı saha tecrübesine sahibim. Bu çok yönlü altyapım, projelerime farklı perspektiflerden bakmamı sağlıyor.</p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Yıl Deneyim</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Tamamlanan Proje</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Teknoloji</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Öğrenmeye Devam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ⚙️ Beceriler Bölümü -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">&lt;teknoloji_cephaneliğim&gt;</h2>
+            <p class="section-subtitle">&lt;/teknoloji_cephaneliğim&gt;</p>
+            
+            <div class="skills-grid">
+                
+                <!-- Diller & Temel -->
+                <div class="skill-card">
+                    <h3>🚀 Diller & Temel</h3>
+                    <ul class="skill-tags">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+
+                <!-- Framework & Kütüphaneler -->
+                <div class="skill-card">
+                    <h3>🧰 Framework & Kütüphaneler</h3>
+                    <ul class="skill-tags">
+                        <li>Flutter</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>Node.js</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+
+                <!-- Yapay Zeka Araçları -->
+                <div class="skill-card">
+                    <h3>🤖 Yapay Zeka Araçları</h3>
+                    <ul class="skill-tags">
+                        <li>ComfyUI</li>
+                        <li>Whisper (Ses Tanıma)</li>
+                        <li>TTS (Metin Okuma)</li>
+                        <li>Ollama</li>
+                        <li>LangChain</li>
+                    </ul>
+                </div>
+
+                <!-- Araçlar & Platformlar -->
+                <div class="skill-card">
+                    <h3>🛠️ Araçlar & Platformlar</h3>
+                    <ul class="skill-tags">
+                        <li>Linux</li>
+                        <li>Windows</li>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>Docker</li>
+                        <li>MySQL / PostgreSQL</li>
+                    </ul>
+                </div>
+
+                <!-- Donanım & Destek -->
+                <div class="skill-card">
+                    <h3>📹 Donanım & Destek</h3>
+                    <ul class="skill-tags">
+                        <li>Kamera Sistemleri</li>
+                        <li>Son Kullanıcı Desteği</li>
+                        <li>Donanım Kurulum</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 📂 Projeler Bölümü -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">&lt;projeler&gt;</h2>
+            <p class="section-subtitle">&lt;/projeler&gt;</p>
+            
+            <div class="projects-grid">
+                
+                <!-- Proje Kartı 1 Örneği -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/0a0a0a/00ff41?text=Yapay+Zeka+Projesi" alt="AI Proje">
+                    </div>
+                    <div class="project-info">
+                        <h3>Akıllı Asistan</h3>
+                        <p>Sesten yazıya ve yazıdan sese dönüşüm yapabilen, yerel LLM ile çalışan kişisel asistan.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Whisper</span>
+                            <span>Ollama</span>
+                        </div>
+    <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Kod</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje Kartı 2 Örneği -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/0a0a0a/0066cc?text=Siber+Güvenlik+Projesi" alt="Siber Güvenlik Projesi">
+                    </div>
+                    <div class="project-info">
+                        <h3>Güvenlik Duvarı Analizörü</h3>
+                        <p>Ağ trafiğini izleyen ve tehditleri tespit eden, yapay zeka destekli güvenlik duvarı uygulaması.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Kod</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- İsteğe göre daha fazla kart ekleyin -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/0a0a0a/ff6b35?text=Mobil+Uygulama" alt="Mobil Uygulama">
+                    </div>
+                    <div class="project-info">
+                        <h3>Flutter ile Mobil Uygulama</h3>
+                        <p>Kullanıcı dostu, çapraz platform destekli modern bir mobil uygulama.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Kod</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ✉️ İletişim Bölümü -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">&lt;iletişim&gt;</h2>
+            <p class="section-subtitle">&lt;/iletişim&gt;</p>
+            
+            <p class="contact-text">Bir projeniz mi var? İşbirliği yapmak ister misiniz? Bana ulaşın!</p>
+            
+            <div class="contact-links">
+                <a href="https://twitter.com/aoaydinn" target="_blank" class="contact-item">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter / X</span>
+                </a>
+                <a href="https://medium.com/@xleatz" target="_blank" class="contact-item">
+                    <i class="fab fa-medium"></i>
+                    <span>Medium</span>
+                </a>
+                <a href="https://t.me/aoaydinn" target="_blank" class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="https://www.linkedin.com/in/abdurrahman-ayd%C4%B1n-97629678/" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://stackoverflow.com/users/8784421/abdurrahman-ayd%c4%b1n" target="_blank" class="contact-item">
+                    <i class="fab fa-stack-overflow"></i>
+                    <span>StackOverflow</span>
+                </a>
+                <a href="mailto:you@example.com" class="contact-item" id="emailLink">
+                    <i class="fas fa-envelope"></i>
+                    <span>E-posta</span>
+                </a>
+            </div>
+            
+            <!-- Hızlı İletişim Formu -->
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Adınız" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Mesajınız..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <!-- ⚡ Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Abdurrahman Aydın. Tüm hakları saklıdır.</p>
+        <p class="footer-quote">"Meraklı kal, güvenle inşa et."</p>
+    </footer>
+
+    <!-- Kendi betik dosyamız -->
+    <script src="script.js"></script>
+</body>
+</html>
