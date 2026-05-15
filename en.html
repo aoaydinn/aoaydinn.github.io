@@ -45,6 +45,31 @@
 </head>
 
 <body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-logo">&lt;<span>aoaydin</span>/&gt;</div>
+        <div class="preloader-bar-wrap">
+            <div class="preloader-bar-fill"></div>
+        </div>
+        <div class="preloader-sub">Loading...</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Toast Container -->
+    <div id="toast-container"></div>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
     <!-- Matrix Arka Plan -->
     <canvas id="matrixCanvas"></canvas>
     <div class="overlay"></div>
@@ -78,8 +103,10 @@
         <section id="home" class="hero section">
             <div class="hero-content">
                 <div class="avatar-container">
-                    <!-- Gerçek resminiz veya placeholder -->
                     <img src="images/photo.png" alt="A. Onur Aydın" class="avatar">
+                    <div class="freelance-badge">
+                        <span class="badge-pulse"></span> Open to Freelance
+                    </div>
                 </div>
                 <h1 class="glitch" data-text="A. Onur Aydın">A. Onur Aydın</h1>
                 <div class="typing-container">
@@ -130,10 +157,9 @@
                             <li><span class="label">Languages</span><span class="val">English (Advanced), Turkish (Native)</span>
                             </li>
                             <li><span class="label">Military</span><span class="val">Completed</span></li>
-                            <li><span class="label">Projects</span><span class="val text-green">60+ GitHub Repos</span>
-                            </li>
+                            <li><span class="label">Projects</span><span class="val text-green"><span class="count-up" data-count="60" data-suffix="+">0</span> GitHub Repos</span></li>
                             <li><span class="label">Status</span><span class="val text-green">Open to Freelance</span></li>
-                            <li><span class="label">Experience</span><span class="val">12+ Years</span></li>
+                            <li><span class="label">Experience</span><span class="val"><span class="count-up" data-count="12" data-suffix="+">0</span> Years</span></li>
                         </ul>
                     </div>
                 </div>
@@ -344,9 +370,17 @@
         <section id="projects" class="projects section">
             <div class="container">
                 <h2 class="section-title">Featured Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI & Vision</button>
+                    <button class="filter-btn" data-filter="security">Security</button>
+                    <button class="filter-btn" data-filter="csharp">C#</button>
+                    <button class="filter-btn" data-filter="network">Network</button>
+                </div>
+
                 <div class="projects-grid">
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="ai">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-industry"></i> Facility Vehicle Tracking Autonomous</h3>
@@ -363,7 +397,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="ai">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-video"></i> CopperTrace AI</h3>
@@ -380,7 +414,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="security csharp">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-shield-alt"></i> FolderLocker Pro</h3>
@@ -397,7 +431,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="csharp">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-database"></i> Sentinel3 Veri Analizi</h3>
@@ -414,7 +448,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="network csharp">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-network-wired"></i> FreeIPFinder & OSD</h3>
@@ -431,7 +465,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card fade-in-up">
+                    <div class="project-card glass-card fade-in-up" data-category="ai security">
                         <div class="project-content">
                             <div class="project-header">
                                 <h3><i class="fas fa-robot"></i> Google AI & PentestAgent</h3>
