@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A. Onur Aydın - Senior IT & Software Expert. Cybersecurity, Artificial Intelligence (AI) and Web Development portfolio.">
+    <meta name="keywords"
+        content="A. Onur Aydın, Onur Aydın, Abdurrahman Aydın, Software Developer, Cybersecurity Expert, Artificial Intelligence, AI, IT Manager, C#, Portfolio, Freelance">
+    <meta name="author" content="A. Onur Aydın">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="theme-color" content="#030712">
+    <link rel="canonical" href="https://aoaydinn.github.io/">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="A. Onur Aydın | Profesyonel Portfolyo">
+    <meta property="og:description"
+        content="Senior IT & Software Expert. 12+ years of industry experience, Cybersecurity and System Architecture.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aoaydinn.github.io/">
+    <meta property="og:image" content="https://aoaydinn.github.io/images/photo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aoaydinn">
+    <meta name="twitter:title" content="A. Onur Aydın | Profesyonel Portfolyo">
+    <meta name="twitter:description"
+        content="Senior IT & Software Expert. Cybersecurity and Artificial Intelligence (AI) solutions.">
+
+    <title>A. Onur Aydın | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Dosyası -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Matrix Arka Plan -->
+    <canvas id="matrixCanvas"></canvas>
+    <div class="overlay"></div>
+
+    <!-- Navigasyon -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt;aoaydin/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#dorks">Google Dorks</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions" style="display: flex; align-items: center; gap: 20px;">
+                <div class="lang-switch">
+                    <a href="index.html" class="lang-btn"><i class="fas fa-globe"></i> TR</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Bölümü -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <div class="avatar-container">
+                    <!-- Gerçek resminiz veya placeholder -->
+                    <img src="images/photo.png" alt="A. Onur Aydın" class="avatar">
+                </div>
+                <h1 class="glitch" data-text="A. Onur Aydın">A. Onur Aydın</h1>
+                <div class="typing-container">
+                    <span class="prefix">>_ </span><span id="typed-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">
+                    Producing innovative solutions with over 12 years of experience in Software Development, Cybersecurity, and Hardware operations.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                    <a href="#" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/aoaydinn" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/aoaydinn" target="_blank" title="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/aoaydinn" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/aoaydin/" target="_blank" title="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="mailto:aaydin3494@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Hakkımda Bölümü -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-card">
+                        <h3>Senior IT & Software Expert</h3>
+                        <p>Through my education and experiences, I have had the opportunity to work with diverse groups of people, be part of a team, and learn how to create together. I am someone who loves what I do and pays great attention to details.</p>
+                        <p>My interest in artificial intelligence is not limited to visual generation; I focus on voice-to-text, text-to-voice, local AI model installations, and team collaborations. I am passionate about building robust and scalable systems using cybersecurity, AI, and modern web technologies.</p>
+                    </div>
+                    <div class="about-stats glass-card">
+                        <ul class="info-list">
+                            <li><span class="label">Age</span><span class="val" id="age-val">30</span></li>
+                            <li><span class="label">Location</span><span class="val">Kahramanmaras, Turkey</span></li>
+                            <li><span class="label">E-mail</span><span class="val">aaydin3494@gmail.com</span></li>
+                            <li><span class="label">Languages</span><span class="val">English (Advanced), Turkish (Native)</span>
+                            </li>
+                            <li><span class="label">Military</span><span class="val">Completed</span></li>
+                            <li><span class="label">Projects</span><span class="val text-green">60+ GitHub Repos</span>
+                            </li>
+                            <li><span class="label">Status</span><span class="val text-green">Open to Freelance</span></li>
+                            <li><span class="label">Experience</span><span class="val">12+ Years</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Özgeçmiş Bölümü -->
+        <section id="resume" class="resume section">
+            <div class="container">
+                <h2 class="section-title">Resume</h2>
+                <div class="timeline-container">
+                    <div class="timeline-block glass-card">
+                        <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>IT Manager</h4>
+                                    <span class="period">2024 - Present</span>
+                                    <p class="company">Gemciler Güven Metal San. ve Tic. A.Ş.</p>
+                                    <span class="tags">System Admin | Software | Cybersecurity</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Freelance Developer</h4>
+                                    <span class="period">2021 - 2024</span>
+                                    <p class="company">Freelance</p>
+                                    <span class="tags">C# Development | Automation | Web Dev | End User Support</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>IT Director</h4>
+                                    <span class="period">11.2018 - 12.2020</span>
+                                    <p class="company">PULATHANELİLER OFÇAY GIDA PAZ. TİC. AŞ.</p>
+                                    <span class="tags">System Admin | Network Arch | E-Commerce</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>IT Director</h4>
+                                    <span class="period">03.2014 - 02.2019</span>
+                                    <p class="company">ACEM GIDA İNŞAAT TUR. SAN. ve TİC. LTD. ŞTİ.</p>
+                                    <span class="tags">Hardware | Server Admin | Tech Support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-block glass-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Computer Engineering (English)</h4>
+                                    <span class="period">10.2012 - 08.2016</span>
+                                    <p class="company">Dokuz Eylül Üniversitesi</p>
+                                    <span class="tags">School of Computer and Technology | Left in 2nd Year</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Web Programming</h4>
+                                    <span class="period">Graduation: 05.2012</span>
+                                    <p class="company">Kahramanmaraş Anadolu Endüstri Meslek Lisesi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block glass-card" style="grid-column: 1 / -1; margin-top: 20px;">
+                        <h3><i class="fas fa-certificate"></i> Certifications & Courses</h3>
+                        <div class="timeline"
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                            <div class="timeline-item" style="margin-bottom: 0;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Basic Network & Blockchain Technologies</h4>
+                                    <span class="period">2021</span>
+                                    <p class="company">BTK Akademi</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" style="margin-bottom: 0;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>E-Commerce Training</h4>
+                                    <span class="period">11.2021 (45 Hours)</span>
+                                    <p class="company">İSTİB</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" style="margin-bottom: 0;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Operating Systems & IT</h4>
+                                    <span class="period">2020 - 2021</span>
+                                    <p class="company">HR and Education Department</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" style="margin-bottom: 0;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Computer Operations & English Course</h4>
+                                    <span class="period">2008 (240 Hours)</span>
+                                    <p class="company">Oxford Eğitim</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Yetenekler Bölümü -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-line"><span style="width: 90%;"></span></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Bash</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-line"><span style="width: 90%;"></span></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>C#</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-line"><span style="width: 70%;"></span></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Flutter / Dart</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress-line"><span style="width: 50%;"></span></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>HTML / CSS / JS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-line"><span style="width: 85%;"></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-toolbox"></i> Technology Ecosystem</h3>
+
+                        <div class="tag-group" style="margin-bottom: 25px;">
+                            <h4
+                                style="font-size: 1.1rem; color: var(--primary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-brain"></i> Artificial Intelligence (AI) & LLM</h4>
+                            <div class="skill-tags">
+                                <span class="tag"><i class="fas fa-server"></i> Ollama (Local AI)</span>
+                                <span class="tag"><i class="fas fa-network-wired"></i> LangChain</span>
+                                <span class="tag"><i class="fas fa-microphone"></i> Whisper (Voice to Text)</span>
+                                <span class="tag"><i class="fas fa-image"></i> ComfyUI (Image Generation)</span>
+                            </div>
+                        </div>
+
+                        <div class="tag-group" style="margin-bottom: 25px;">
+                            <h4
+                                style="font-size: 1.1rem; color: var(--primary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-shield-alt"></i> Cybersecurity & Systems</h4>
+                            <div class="skill-tags">
+                                <span class="tag"><i class="fab fa-linux"></i> Linux / Server Admin</span>
+                                <span class="tag"><i class="fas fa-fire-alt"></i> Firewall</span>
+                                <span class="tag"><i class="fab fa-docker"></i> Docker / Containers</span>
+                                <span class="tag"><i class="fas fa-network-wired"></i> Network Architecture</span>
+                            </div>
+                        </div>
+
+                        <div class="tag-group">
+                            <h4
+                                style="font-size: 1.1rem; color: var(--primary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-database"></i> Database & Operations</h4>
+                            <div class="skill-tags">
+                                <span class="tag"><i class="fas fa-database"></i> SQL (MySQL, PgSQL)</span>
+                                <span class="tag"><i class="fab fa-git-alt"></i> Git / Version Control</span>
+                                <span class="tag"><i class="fas fa-microchip"></i> Hardware Operations</span>
+                                <span class="tag"><i class="fab fa-windows"></i> Windows Ecosystem</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeler Bölümü -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-industry"></i> Facility Vehicle Tracking Autonomous</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-private"><i class="fas fa-lock"></i> Private</span>
+                                </div>
+                            </div>
+                            <p>AI-supported desktop application developed to autonomously track, count and report vehicle traffic at factory entrance/exit gates.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>AI</span>
+                                <span>Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-video"></i> CopperTrace AI</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-private"><i class="fas fa-lock"></i> Private</span>
+                                </div>
+                            </div>
+                            <p>Image processing system that monitors the movement of hot copper materials in real time and instantly detects safe zone violations.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>RTSP</span>
+                                <span>Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-shield-alt"></i> FolderLocker Pro</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-private"><i class="fas fa-lock"></i> Private</span>
+                                </div>
+                            </div>
+                            <p>High-level security tool that protects folders using AES-based encryption and fast GUID hiding; features automatic backup.</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>Cryptography</span>
+                                <span>Güvenlik</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-database"></i> Sentinel3 Veri Analizi</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-private"><i class="fas fa-lock"></i> Private</span>
+                                </div>
+                            </div>
+                            <p>Developed to analyze, visualize and automatically report data from patrol tracking systems using Firebird database (Sentinel).</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>Firebird SQL</span>
+                                <span>Veri Analizi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-network-wired"></i> FreeIPFinder & OSD</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-public"><i class="fas fa-globe"></i> Public/Private</span>
+                                </div>
+                            </div>
+                            <p>Network tool collection that finds empty IPs, configures devices, and mass-manages OSD (On-Screen Display) settings of Hikvision cameras.</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>Python</span>
+                                <span>Network Ops</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3><i class="fas fa-robot"></i> Google AI & PentestAgent</h3>
+                                <div class="project-links">
+                                    <span class="badge badge-public"><i class="fas fa-globe"></i> Public</span>
+                                </div>
+                            </div>
+                            <p>Smart text processing assistant powered by Generative Language API, and a Python-based automation tool for cybersecurity (penetration testing).</p>
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>Python</span>
+                                <span>LLM / Sızma Testi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-container" style="text-align: center; margin-top: 40px;">
+                    <a href="https://github.com/aoaydinn" target="_blank" class="btn btn-outline fade-in-up">
+                        <i class="fab fa-github"></i> View All (60+ Projects)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Dorks Bölümü -->
+        <section id="dorks" class="dorks section">
+            <div class="container">
+                <h2 class="section-title">Google Dorks Search Tool</h2>
+                <div class="dorks-container glass-card">
+                    <p class="dork-desc">Extract the files you want from the depths of the internet.</p>
+
+                    <div class="search-box">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="searchQuery"
+                            placeholder="Enter search term... (e.g. Penetration Testing)">
+                    </div>
+
+                    <div class="filters-grid">
+                        <div class="filter-group">
+                            <h3><i class="fas fa-file-alt"></i> File Type</h3>
+                            <div class="options-group">
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="pdf"><span>PDF</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="docx"><span>DOCX</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="xlsx"><span>XLSX</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="pptx"><span>PPTX</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="txt"><span>TXT</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType"
+                                        value="exe"><span>EXE</span></label>
+                                <label class="cyber-radio"><input type="radio" name="fileType" value=""
+                                        checked><span>All</span></label>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h3><i class="fas fa-globe"></i> Search Scope</h3>
+                            <div class="options-group">
+                                <label class="cyber-radio"><input type="radio" name="searchPoint"
+                                        value="drive.google.com"><span>Google Drive</span></label>
+                                <label class="cyber-radio"><input type="radio" name="searchPoint"
+                                        value="disk.yandex.com"><span>Yandex Disk</span></label>
+                                <label class="cyber-radio"><input type="radio" name="searchPoint"
+                                        value="academia.edu"><span>Academia.edu</span></label>
+                                <label class="cyber-radio"><input type="radio" name="searchPoint"
+                                        value="researchgate.net"><span>ResearchGate</span></label>
+                                <label class="cyber-radio"><input type="radio" name="searchPoint" value=""
+                                        checked><span>All</span></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="searchBtn" class="btn btn-primary btn-block">
+                        <i class="fas fa-satellite-dish"></i> Start Scan
+                    </button>
+
+                    <div class="marquee-container">
+                        <div class="marquee">
+                            <span>WARNING: Please pay attention to the legal use of search results. The user is responsible for the data obtained.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Bölümü -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-info glass-card">
+                        <h3>Get in Touch</h3>
+                        <p>You can contact me for your projects, job offers, or just to chat about technology.</p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Kahramanmaras, Turkey</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>E-mail</h4>
+                                    <p><a href="mailto:aaydin3494@gmail.com">aaydin3494@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <p>+90 (507) 964 03 28</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon"><i class="fab fa-telegram-plane"></i></div>
+                                <div>
+                                    <h4>Telegram</h4>
+                                    <p><a href="https://t.me/aoaydinn" target="_blank">@aoaydinn</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container glass-card">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your E-mail Address" required>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+                                <span class="focus-border"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year">2024</span> A. Onur Aydın. All rights reserved.</p>
+            <p class="footer-tagline">"Stay curious, build securely."</p>
+        </div>
+    </footer>
+
+    <!-- JS Dosyası -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
